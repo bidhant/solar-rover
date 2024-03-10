@@ -1,0 +1,19 @@
+menu "WIFI AP"
+
+    config SSID
+        string "Wi-Fi name (SSID)"
+        default "eyahhh"
+        
+    config PASSWORD
+        string "Wi-Fi password"
+        default "padam123"
+    
+    config MAXIMUM_STATION
+        string "Maximum Station"
+        default 4
+        
+    config WIFI_CHANNEL
+        string "Wifi channel"
+        default 1
+    endmenu
+
